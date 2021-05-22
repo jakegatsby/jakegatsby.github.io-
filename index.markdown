@@ -6,5 +6,5 @@ layout: home
 ---
 
 {% for page in site.pages %}
-# {{ page.title }}
+{{ page.title }} {{ page.name }}
 {% endfor %}
