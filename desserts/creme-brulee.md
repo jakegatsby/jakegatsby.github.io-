@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Creme Brulee
-permalink: /recipes/creme-brulee
+#permalink: /desserts/creme-brulee
 ---
 
 ### Ingredients

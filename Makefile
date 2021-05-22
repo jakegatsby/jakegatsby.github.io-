@@ -3,5 +3,5 @@ SHELL=/bin/bash
 install:
 	bundle install
 
-preview:
+view:
 	bundle exec jekyll serve
