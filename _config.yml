@@ -10,7 +10,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-modernist
+theme: modernist
 
 # Exclude from processing.
 # The following items will not be processed, by default.
