@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+    li {
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    </style>
 
 {% seo %}
   </head>
@@ -15,15 +26,14 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h1 id="project_title"><a href="/" style="color:  #ffc107">{{ site.title | default: site.github.repository_name }}</a></h1>
+          <h1 id="project_title"><a href="/" style="color: #ffc107">{{ site.title | default: site.github.repository_name }}</a></h1>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner" style="font-size: 1.5em; line-height: 1.2em">
         <h2 style="color: #7952b3">{{ page.title }}</h2>
-
         {{ content }}
       </section>
     </div>
