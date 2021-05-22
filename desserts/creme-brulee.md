@@ -1,6 +1,8 @@
+---
 layout: page
 title: Creme Brulee
 permalink: /recipes/creme-brulee
+---
 
 ### Ingredients
 
