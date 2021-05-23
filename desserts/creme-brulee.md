@@ -3,7 +3,7 @@ layout: page
 title: Creme Brulee
 ---
 
-### Ingredients
+# Ingredients
 
 * 5 large egg yolks
 * 3/4 cup (150g) granulated sugar, divided
@@ -12,7 +12,7 @@ title: Creme Brulee
 * 1/4 teaspoon salt
 * 1 and 1/2 teaspoons pure vanilla extract
 
-### Directions
+# Directions
 
 1. Preheat oven to 325°F (163°C).
 1. Whisk the egg yolks and 1/2 cup (100g) of granulated sugar together. Set aside. (At this point or before you temper the egg yolks in the next step, bring a small kettle or pot of water to a boil. You’ll need hot water to pour into the baking sheet for the water bath.)

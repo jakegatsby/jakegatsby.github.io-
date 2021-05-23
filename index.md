@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Desserts
+# Desserts
 
 {% for page in site.pages %}
 {% if page.url contains "dessert"  %}
