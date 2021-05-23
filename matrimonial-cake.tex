@@ -1,24 +1,24 @@
-\documentclass{report}
+\documentclass[notitlepage,12pt]{report}
 \title{Matrimonial Cake}
 \date{}
+\usepackage{titling}
+\pretitle{\begin{center}\Huge\bfseries}
+\posttitle{\par\end{center}}
 \usepackage{nopageno}
 \usepackage[left=1in,right=1in]{geometry}
 \usepackage{bookmark}
+\usepackage{enumitem}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \begin{document}
-\begin{center}
-\section*{Matrimonial Cake}
-\vspace{2em}
-\end{center}
+\maketitle
 
-\begin{minipage}[t]{0.45\textwidth}\vspace{0pt}
-
+\begin{minipage}[t]{0.4\textwidth}\vspace{0pt}
 
 \hypertarget{ingredients}{%
 \section*{Ingredients}\label{ingredients}}
 
-\begin{itemize}
+\begin{itemize}[leftmargin=*]
 \tightlist
 \item
   3 cups dates
@@ -42,7 +42,7 @@
 
 \end{minipage}%
 \hfill
-\begin{minipage}[t]{0.45\textwidth}\vspace{0pt}
+\begin{minipage}[t]{0.6\textwidth}\vspace{0pt}
 
 
 \hypertarget{directions}{%
@@ -51,7 +51,7 @@
 \hypertarget{filling}{%
 \subsubsection{Filling}\label{filling}}
 
-\begin{enumerate}
+\begin{enumerate}[leftmargin=*]
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
@@ -63,7 +63,7 @@
 \hypertarget{crust}{%
 \subsubsection{Crust}\label{crust}}
 
-\begin{enumerate}
+\begin{enumerate}[leftmargin=*]
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
@@ -77,7 +77,7 @@
 \hypertarget{baking}{%
 \subsubsection{Baking}\label{baking}}
 
-\begin{enumerate}
+\begin{enumerate}[leftmargin=*]
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
